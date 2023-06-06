@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color:aliceblue;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container.scores {
+  flex-direction: column;
+}
+
+.score {
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  font-size: 24px;
+  padding: 2em;
+}
+
+.container button {
+  padding: 2em;
+  font-size: 32px;
+  background-color: chartreuse;
+  border-radius: 15px;
+  border: 0px;
+}
